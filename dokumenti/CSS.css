@@ -1,0 +1,211 @@
+@charset "utf-8"
+/*CSS Document*/
+.version1 body {
+    background-image: url("slika/IMG_20240513_063515.jpg");
+    background-size: cover;
+    color: darkblue;
+    font-family: "Times New Roman", serif;
+    font-size: 35px;
+    line-height: 1.5;
+    width: 600px;
+    padding: 20px;
+}
+
+.version1 h1 {
+    font-family: "KHALIMAAKBIEVA", serif;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 10px;
+}
+
+.version1 p, .version1 nav {
+    font-family: "Times New Roman", serif;
+    font-size: 25px;
+    line-height: 1.6;
+    width: 600px;
+    background-color: #f0f8ff; /* iceblue */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+.version2 body {
+    margin: 0;
+    padding: 20px;
+    background-image: url("slika/lavanda.jpg");
+    background-size: cover;
+    color: darkblue;
+    font-family: "Segoe UI", Tahoma, sans-serif;
+    font-size: 35px;
+    line-height: 1.2;
+    width: 600px;
+}
+
+.version2 h1 {
+    font-family: "Segoe UI", Tahoma, sans-serif;
+    color: DarkMagenta;
+    font-size: 50px;
+    background-color: rgba(255,255,255,0.5);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.version2 p, .version2 h2 {
+    color: MediumVioletRed;
+    font-family: "Segoe UI", Tahoma, sans-serif;
+    font-size: 25px;
+    line-height: 40px;
+    width: 600px;
+    background-color: Lavender; /* #E6E6FA */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.version2 nav {
+    color: darkblue;
+    font-family: "Segoe UI", Tahoma, sans-serif;
+    font-size: 25px;
+    line-height: 50px;
+    width: 600px;
+    background-color: #f0f8ff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.version3 body {
+    margin: 0;
+    padding: 20px;
+    font-family: "Times New Roman", serif;
+    font-size: 35px;
+    line-height: 1.5;
+    width: 600px;
+    color: darkblue;
+    background-image: url("slika/IMG_20240513_063515.jpg");
+    background-size: cover;
+    background-position: center;
+    background-color: antiquewhite;
+}
+
+.version3 p {
+    font-size: 25px;
+    line-height: 1.6;
+    background-color: #f0f8ff;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.version3 h1 {
+    font-family: "Times New Roman", serif;
+    font-size: 50px;
+    line-height: 50px;
+    margin-bottom: 20px;
+}
+
+.version3 h2 {
+    font-size: 40px;
+    line-height: 50px;
+    margin-bottom: 15px;
+}
+
+.version3 ul {
+    color: darkblue;
+    font-family: "Times New Roman", serif;
+    font-size: 16px;
+    line-height: 40px;
+    width: 600px;
+    background-color: #f0f8ff;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+
+.version4 * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.version4 body {
+    font-family: "Times New Roman", serif;
+    background-image: url("slika/IMG_20240513_063515.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: darkblue;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 50px 0;
+    min-height: 100vh;
+}
+
+.version4 .container {
+    background-color: rgba(240, 248, 255, 0.85);
+    width: 80%;
+    max-width: 900px;
+    padding: 30px 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+.version4 h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.version4 h2 {
+    font-size: 40px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.version4 h3 {
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.version4 p {
+    font-size: 25px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 15px 20px;
+    border-radius: 10px;
+}
+
+.version4 a {
+    color: darkblue;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.version4 a:hover {
+    color: #000080;
+}
+
+.version4 nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding-left: 0;
+    justify-content: center;
+}
+
+.version4 nav li {
+    display: inline-block;
+}
+
+.version4 nav a {
+    font-size: 22px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background 0.3s, color 0.3s;
+}
+
+.version4 nav a:hover {
+    background-color: rgba(0,0,128,0.1);
+    color: #000080;
+}
