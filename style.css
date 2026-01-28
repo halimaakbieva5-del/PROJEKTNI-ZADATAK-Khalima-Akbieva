@@ -1,0 +1,64 @@
+@charset "utf-8"
+/*CSS Document*/
+
+.version1 h1 {
+    font-family: "KHALIMAAKBIEVA", serif;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 10px;
+}
+
+.version1 p, .version1 nav {
+    font-family: "Times New Roman", serif;
+    font-size: 25px;
+    line-height: 1.6;
+    width: 600px;
+    background-color: #f0f8ff; /* iceblue */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+.version2 body {
+    margin: 0;
+    padding: 20px;
+    background-image: url("slika/lavanda.jpg");
+    background-size: cover;
+    color: darkblue;
+    font-family: "Segoe UI", Tahoma, sans-serif;
+    font-size: 35px;
+    line-height: 1.2;
+    width: 600px;
+}
+
+.version2 h1 {
+    font-family: "Segoe UI", Tahoma, sans-serif;
+    color: DarkMagenta;
+    font-size: 50px;
+    background-color: rgba(255,255,255,0.5);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.version2 p, .version2 h2 {
+    color: MediumVioletRed;
+    font-family: "Segoe UI", Tahoma, sans-serif;
+    font-size: 25px;
+    line-height: 40px;
+    width: 600px;
+    background-color: Lavender; /* #E6E6FA */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.version2 nav {
+    color: darkblue;
+    font-family: "Segoe UI", Tahoma, sans-serif;
+    font-size: 25px;
+    line-height: 50px;
+    width: 600px;
+    background-color: #f0f8ff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
